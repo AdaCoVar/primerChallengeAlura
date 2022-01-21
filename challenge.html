@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!-- Este es el diseno del encriptador! -->
+<html lang="es">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <title>Mi encriptador</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="titulo">Encriptador: código secreto</h1>
+
+  <main class="main">
+  	<!-- Cajita -->
+    <section class="form box">
+      <form action="">
+      	<h2>Mensaje a encriptar</h2>
+        <label for="input-texto">Solo usar letras minúsculas, sin acentos<br></label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Escribe el texto aqui">
+        <input class="btn" type="submit" value="¡Encriptar!" id="btnencriptar">
+        <input class="btn" type="submit" value="¡Desencriptar!" id="btndesencriptar">
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <h2 id="">Mensaje encriptado</h2>
+      <input class="text-input" type="text" id="msg" readonly="" placeholder="Su mensaje encriptado:">
+      <input class="btn" type="submit" value="Copiar" id="btncopiar">
+    </section>
+  </main>
+  <footer>
+    <p>¡Alura challenge 2022!</p>
+    <a href="adamarycortes@gmail.com">Contacto</a>
+  </footer>
+  <script src="logica.js"></script>
+
+
+</body></html>
